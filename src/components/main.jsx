@@ -1,10 +1,13 @@
 import React from "react";
+import SideMenu from "./sideMenu/sideMenu.jsx";
+import WordsTraining from "./wordsTraining/wordsTraining.jsx";
 
 function Main() {
   return (
     <React.Fragment>
-      <main className="main">
-        <p>Hello!</p>
+      <main>
+        <SideMenu />
+        <WordsTraining />
       </main>
     </React.Fragment>
   );
