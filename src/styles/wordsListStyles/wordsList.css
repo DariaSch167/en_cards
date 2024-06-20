@@ -1,0 +1,9 @@
+.list {
+  width: 90%;
+  background-color: #eeebea;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  color: #2c2c2c;
+}

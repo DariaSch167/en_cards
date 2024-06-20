@@ -1,0 +1,26 @@
+[
+  {
+    "id": "16397",
+    "english": "cat",
+    "transcription": "[cat]",
+    "russian": "кошка",
+    "tags": "",
+    "tags_json": "[\"\"]"
+  },
+  {
+    "id": "16400",
+    "english": "basket",
+    "transcription": "[ˈbɑːskɪt]",
+    "russian": "корзина",
+    "tags": "",
+    "tags_json": "[\"\"]"
+  },
+  {
+    "id": "16408",
+    "english": "hello",
+    "transcription": "[həˈləʊ]",
+    "russian": "привет",
+    "tags": "",
+    "tags_json": "[]"
+  }
+]
