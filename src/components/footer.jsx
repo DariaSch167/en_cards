@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/footer.css";
 import gitLogo from "../images/footer_git.svg";
 
 function Footer() {

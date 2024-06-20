@@ -1,0 +1,55 @@
+.card {
+  background-color: #fff;
+  box-shadow: 4px 4px 8px #95847e;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card__word-theme {
+  font-size: 1.5rem;
+}
+.card__word {
+  font-size: 6rem;
+  padding: 0;
+  margin: 0;
+}
+.card__word-transcription {
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+.card__word-translate {
+  font-size: 3rem;
+  padding: 0;
+  margin: 2rem 0;
+  color: #009fdf;
+}
+
+#card-translate {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 2rem 0;
+  border: 2px solid #fe620b;
+  background-color: #fff;
+  color: #fe620b;
+  outline: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+#card-translate:hover {
+  background-color: #fe620b;
+  color: #fff;
+}
+#card-translate:active {
+  background-color: #009fdf;
+  border-color: #009fdf;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}

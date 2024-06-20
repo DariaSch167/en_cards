@@ -1,3 +1,5 @@
+import "../../styles/wordsTrainingStyles/motionButton.css";
+
 function MotionButton(props) {
   return (
     <button className="card__motion-btn" id={props.id}>

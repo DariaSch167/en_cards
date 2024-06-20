@@ -1,0 +1,19 @@
+.card__motion-btn {
+  padding: 0.75rem;
+  margin: 0 4rem;
+  border-radius: 50%;
+  border: 2px solid #95847e;
+  background-color: #95847e;
+}
+.card__motion-btn:hover {
+  border: 2px solid #fe620b;
+  background-color: #fe620b;
+}
+.card__motion-btn:active {
+  border: 2px solid #303bb0;
+  background-color: #303bb0;
+}
+.card__motion-btn:disabled {
+  border: 2px solid #2c2c2c;
+  background-color: #2c2c2c;
+}

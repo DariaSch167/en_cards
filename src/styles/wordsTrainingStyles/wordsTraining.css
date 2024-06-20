@@ -1,0 +1,15 @@
+.training {
+  width: 90%;
+  background-color: #eeebea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2c2c2c;
+}
+.card__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}

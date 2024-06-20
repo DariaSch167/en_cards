@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/header.jsx";
 import Main from "./components/main.jsx";
 import Footer from "./components/footer.jsx";
+import "./App.css";
 
 class App extends Component {
   render() {

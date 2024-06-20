@@ -1,0 +1,10 @@
+.side-menu__element {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: #eeebea;
+  box-sizing: border-box;
+}
+
+.side-menu__element img {
+  width: 3rem;
+}
