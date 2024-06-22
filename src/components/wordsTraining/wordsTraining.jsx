@@ -4,6 +4,7 @@ import MotionButton from "./motionButton.jsx";
 import "../../styles/wordsTrainingStyles/wordsTraining.css";
 import prevArrow from "../../images/card_prev-arrow.svg";
 import nextArrow from "../../images/card_next-arrow.svg";
+import wordsJSON from "../../data/words.json";
 
 function WordsTraining(props) {
   return (
