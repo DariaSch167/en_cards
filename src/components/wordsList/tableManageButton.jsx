@@ -1,3 +1,5 @@
+import "../../styles/wordsListStyles/tableManageButton.css";
+
 function ManageButton(props) {
   return (
     <button className="table__manage-btn" id={props.id}>

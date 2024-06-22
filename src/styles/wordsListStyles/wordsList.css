@@ -7,3 +7,16 @@
   align-items: center; */
   color: #2c2c2c;
 }
+
+.read-mode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.list__title {
+  margin: 3rem;
+  font-size: 2rem;
+}

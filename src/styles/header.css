@@ -9,7 +9,8 @@ header {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  margin: 0.5rem 0;
+  margin: auto 0;
+  font-size: 1.25rem;
 }
 
 .header__menu-title img {

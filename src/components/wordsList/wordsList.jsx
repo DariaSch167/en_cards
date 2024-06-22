@@ -2,29 +2,37 @@ import React from "react";
 import TableRowRead from "./tableRowReadMode.jsx";
 import TableRowEdit from "./tableRowEditMode.jsx";
 import "../../styles/wordsListStyles/wordsList.css";
+import wordsJSON from "../../data/words.json";
 
 function WordsList(props) {
   let tableMode;
+
   if (props.mode === "read-mode") {
-    tableMode = (
-      <TableRowRead
-        num="1"
-        word="cat"
-        transcription="[cat]"
-        translate="кошка"
-        theme="животные"
-      />
-    );
+    tableMode = wordsJSON.map((item, index) => {
+      return (
+        <TableRowRead
+          key={index}
+          num={index + 1}
+          word={item.english}
+          transcription={item.transcription}
+          translate={item.russian}
+          theme={item.tags}
+        />
+      );
+    });
   } else {
-    tableMode = (
-      <TableRowEdit
-        num="1"
-        word="cat"
-        transcription="[cat]"
-        translate="кошка"
-        theme="животные"
-      />
-    );
+    tableMode = wordsJSON.map((item, index) => {
+      return (
+        <TableRowEdit
+          key={index}
+          num={index + 1}
+          word={item.english}
+          transcription={item.transcription}
+          translate={item.russian}
+          theme={item.tags}
+        />
+      );
+    });
   }
 
   return (

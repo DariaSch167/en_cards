@@ -1,0 +1,14 @@
+.table-row {
+  display: grid;
+  grid-template-columns: 0.2fr repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+  width: 80%;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #2c2c2c;
+}
+
+.table-row__manage-btn {
+  display: flex;
+  align-items: center;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import ManageButton from "./tableManageButton.jsx";
 import btnEdit from "../../images/table_btn-edit.svg";
 import btnDel from "../../images/table_btn-delete.svg";
+import "../../styles/wordsListStyles/tableRowReadMode.css";
 
 function TableRowRead(props) {
   return (
