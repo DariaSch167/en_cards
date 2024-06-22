@@ -2,6 +2,7 @@ import React from "react";
 import ManageButton from "./tableManageButton.jsx";
 import btnUndo from "../../images/table_btn-undo.svg";
 import btnSave from "../../images/table_btn-save.svg";
+import "../../styles/wordsListStyles/tableRowEditMode.css";
 
 function TableRowEdit(props) {
   return (

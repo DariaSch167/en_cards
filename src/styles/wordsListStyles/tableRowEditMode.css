@@ -1,7 +1,7 @@
 .table-row {
   display: grid;
   grid-template-columns: 0.2fr repeat(5, 1fr);
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   width: 90%;
   font-size: 1.25rem;
@@ -13,7 +13,11 @@
   align-items: center;
 }
 
-.table-row__word,
-.table-row__word-translate {
+.table-row__word-num {
   font-weight: bold;
+}
+
+.table-row input {
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
 }

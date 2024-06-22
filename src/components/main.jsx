@@ -9,7 +9,7 @@ function Main() {
     <React.Fragment>
       <main>
         <SideMenu />
-        <WordsList mode="read-mode" />
+        <WordsList mode="edit-mode" />
       </main>
     </React.Fragment>
   );
