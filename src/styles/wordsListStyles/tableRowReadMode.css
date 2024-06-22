@@ -12,3 +12,8 @@
   display: flex;
   align-items: center;
 }
+
+.table-row__word,
+.table-row__word-translate {
+  font-weight: bold;
+}
